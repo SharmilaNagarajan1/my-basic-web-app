@@ -16,7 +16,7 @@ resource "azurerm_linux_web_app" "web-app" {
   name                = var.app_name
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
-  service_plan_id     = azurerm_service_plan.sp.id
+  service_plan_id     = azurerm_service_plan.sp.id 
 
   site_config{}
   app_settings = {

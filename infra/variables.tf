@@ -7,6 +7,6 @@ variable "app_name" {
 variable "location" {
   description = "Azure region"
   type        = string
-  default     = "westus"
+  default     = "eastus2"
 }
 
